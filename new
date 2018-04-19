@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<html>
+<head>
+<title>Snowman that says ouch!</title>
+</head>
+<body>
+<a onclick="document.getElementById('x').play();">
+
+  <svg width="1300" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+  <g>
+ 
+  <ellipse ry="16" rx="15" id="svg_1" cy="97.10001" cx="230.39999" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+  <ellipse ry="26" rx="23" id="svg_2" cy="139.10001" cx="229.39999" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+  <ellipse rx="6" id="svg_5" cy="83.60001" cx="342.39999" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <ellipse rx="1" id="svg_6" cy="83.60001" cx="336.39999" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <circle id="svg_7" r="1" cy="91.10001" cx="225.39999" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <circle id="svg_8" r="1" cy="91.1" cx="234.1" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <path d="m222.59998,97.89999c0.47366,0.67633 1.3161,0.90445 1.71266,1.50533c0.44501,0.6743 0.40628,1.72275 1.13959,1.99242c0.84267,0.30988 1.52513,0.63737 2.23108,1.08559c0.62943,0.39963 1.51524,0.89532 2.41667,0.91666c0.85201,0.02016 1.75,0 2.64267,0c0.90733,0 1.85374,0.04243 2.274,-0.58334c0.45453,-0.6768 1.08333,-1.33333 1.58333,-1.91666l0,-0.91666l0.30533,-0.58334" id="svg_9" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
+  <circle id="svg_10" r="1.58114" cy="124.89999" cx="229.59998" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
+  <circle id="svg_12" r="1.58114" cy="136.6" cx="229.10001" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
+  <circle id="svg_13" r="1.58114" cy="151.1" cx="229.10001" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
+
+
+  
+   
+	 <animateTransform attributeName="transform"
+            type="rotate"
+            from="0 650 500"
+            to="360 650 500"
+            begin="0s"
+            dur="25s"
+            repeatCount="indefinite"
+			additive="sum"
+        />
+			
+  
+  </g>
+  </svg>
+</a>
+ 
+ 
+
+
+
+  <audio id="x" >
+    <source src="Cartoon Ouch sound effect.mp3">
+  </audio>
+
+
+
+</body>
+</html>
