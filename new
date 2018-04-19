@@ -29,8 +29,20 @@
    		
   
  </g>
+ 
+ 
+   <animateTransform attributeName="transform"
+  type="scale"
+  from="1 1"
+  to="0 3"
+  begin="0s"
+  dur="20s"
+  repeatCount="10"
+  additive="sum"
 
 </a>
+ 
+ 
  
 </svg> 
 
