@@ -4,10 +4,13 @@
 <title>Snowman that says ouch!</title>
 </head>
 <body>
+
+<svg width="1300" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
 <a onclick="document.getElementById('x').play();">
 
-  <svg width="1300" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+  
   <g>
  
   <ellipse ry="16" rx="15" id="svg_1" cy="97.10001" cx="230.39999" stroke-width="5" stroke="#000000" fill="#ffffff"/>
@@ -23,23 +26,25 @@
 
 
   
-   
-	 <animateTransform attributeName="transform"
-            type="rotate"
-            from="0 650 500"
-            to="360 650 500"
-            begin="0s"
-            dur="25s"
-            repeatCount="indefinite"
-			additive="sum"
-        />
-			
+   		
   
-  </g>
-  </svg>
+ </g>
+ 
+ 
+   <animateTransform attributeName="transform"
+  type="scale"
+  from="1 1"
+  to="0 3"
+  begin="0s"
+  dur="20s"
+  repeatCount="10"
+  additive="sum"
+
 </a>
  
  
+ 
+</svg> 
 
 
 
